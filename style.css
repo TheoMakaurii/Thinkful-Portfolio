@@ -14,7 +14,7 @@ margin: 0;
 color: lightyellow;
 background-color: lightskyblue;
 text-align: center;
-width: 840px;
+width: 854px;
 }
 
 header a{
@@ -206,6 +206,8 @@ section #message-box #message{
 }
 
 button{
+    width: 100%;
+    height: 35px;
     margin: 5px;
 }
 
@@ -230,7 +232,7 @@ display: block;
 color: lightyellow;
 background-color: lightskyblue;
 text-align: left;
-width: 840px;
+width: 854px;
 }
 
 /* The media query below is for mobile first design. 
@@ -288,6 +290,10 @@ section{
     flex-direction: row;
     justify-content: flex-start;  
    
+}
+
+form{
+    border: unset;
 }
 
 section #message-box{
