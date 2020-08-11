@@ -7,14 +7,15 @@ body{
 }
 header{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: bold;
 font-size: 28px;
 display: flex; 
 flex-direction: column;
 margin: 0;
-color: lightyellow;
+color: lightgoldenrodyellow;
 background-color: lightskyblue;
 text-align: center;
-width: 854px;
+width: 861px;
 }
 
 header a{
@@ -32,14 +33,13 @@ nav ul {
 nav ul li a{
     text-decoration: none;
     color: lightgoldenrodyellow;
+    font-weight: bold;
     justify-content: center;
 
     
 }
 
-header nav ul li a:hover{
-    color: greenyellow;
-}
+
 main{
     background-color: lightgoldenrodyellow;
     margin: 0;
@@ -134,7 +134,7 @@ form{
     padding: 14px;
     font-size: 42px;
     background-color: lightgoldenrodyellow;
-    border: lightsteelblue solid 10px;
+    
 }
 form h2{
     font-size: 42px;
@@ -170,7 +170,7 @@ form #greeting{
 
 form label{
 
-    margin: 25px;
+    margin: 0px;
 }
 
 section{
@@ -179,14 +179,9 @@ section{
     justify-content: flex-start;  
 }
 
-section #radio-buttons{
-    font-size: 28px;
-    display: flex;
-    flex-direction: row;
-}
 
 section #message-box{
-    float: left;
+    
     width: 500px;
     height: 500px;
     margin: 5px;
@@ -228,11 +223,10 @@ button{
 
 footer{
 display: block; 
-
 color: lightyellow;
 background-color: lightskyblue;
 text-align: left;
-width: 854px;
+width: 861px;
 }
 
 /* The media query below is for mobile first design. 
@@ -257,6 +251,10 @@ header{
 
 header ul li{
     font-size: 28px;
+}
+
+header nav ul li a :hover{
+    color: pink;
 }
 
 main{
@@ -297,17 +295,14 @@ form{
 }
 
 section #message-box{
-    float: right;
+   
     width: 500px;
     height: 500px;
     
 
 }
 
-section #message-box #message{
-    float: right;
 
-}
 
 section #radio-buttons{
     font-size: 42px;
