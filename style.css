@@ -97,17 +97,36 @@ main{
 }
 
 
-#projects-box #project-pics{
+.projects-box{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 
 }
 
 a img{
-    border: lightskyblue 5px solid;
+    border: lightskyblue 7px solid;
     margin: 7px;
     padding: 7px;
+}
+
+.project-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.project-description p{
+    font-family: monospace;
+    margin: 7px;
+    font-size: 21px;
+    height: 45%;
+    width: 45%;
+    text-decoration: none;
+    color: black;
+    border: lightskyblue 7px solid;
 }
 
 
