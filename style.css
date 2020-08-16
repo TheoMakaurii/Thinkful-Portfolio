@@ -105,7 +105,7 @@ main{
 }
 
 a img{
-    border: lightskyblue 7px solid;
+    border: lightskyblue 7px dashed;
     margin: 7px;
     padding: 7px;
 }
@@ -116,6 +116,7 @@ a img{
     justify-content: space-around;
     align-items: flex-end;
     margin-top: 10px;
+    border-top: black solid 7px;
 }
 
 .project-description p{
@@ -126,7 +127,7 @@ a img{
     width: 45%;
     text-decoration: none;
     color: black;
-    border: lightskyblue 7px solid;
+    border: lightskyblue 3px dashed;
 }
 
 
