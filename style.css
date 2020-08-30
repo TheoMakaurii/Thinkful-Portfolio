@@ -96,6 +96,13 @@ main{
     
 }
 
+.titleAndDesc{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    
+}
 
 .projects-box{
     display: flex;
@@ -146,6 +153,7 @@ section{
   
     
 }
+
 form{
     display: flex;
     flex-direction: column;
